@@ -7,8 +7,14 @@
   "logging": true,
   "synchronize": false,
   "type": "postgres",
-  "entities": ["/Users/chiazo/code/FlexDJ/backend/src/entity/*{.ts,.js}"],
-  "migrations": ["/Users/chiazo/code/FlexDJ/backend/src/migration/*{.ts,.js}"],
+  "entities": [
+    null,
+    null,
+    null
+  ],
+  "migrations": [
+    "/Users/chiazo/code/FlexDJ/backend/dist/migration/*.js"
+  ],
   "migrationsRun": true,
   "cli": {
     "migrationsDir": "/Users/chiazo/code/FlexDJ/backend/src/migration",
